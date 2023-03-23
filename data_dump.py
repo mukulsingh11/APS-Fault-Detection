@@ -8,8 +8,8 @@ client = pymongo.MongoClient("mongodb+srv://Mukul:12345@cluster0.daqxmxi.mongodb
 
 DATA_FILE_PATH=("/config/workspace/aps_failure_training_set1.csv")
 
-DATABASE_NAME='insurance'
-COLLECTION_NAME='insurance_project'
+DATABASE_NAME='aps'
+COLLECTION_NAME='sensor'
 
 
 if __name__=="__main__":
